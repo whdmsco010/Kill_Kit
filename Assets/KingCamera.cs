@@ -2,19 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Camera : MonoBehaviour
+public class KingCamera : MonoBehaviour
 {
-    public GameObject A;
+    public GameObject B;
+    Transform BT;
 
-    Transform AT;
-    
     void Start()
     {
-        AT = A.transform;
+        BT = B.transform;
     }
 
     void LateUpdate()
     {
-        transform.position = new Vector3(AT.position.x, AT.position.y, transform.position.z);
+        transform.position = new Vector3(BT.position.x, BT.position.y, transform.position.z);
     }
 }
