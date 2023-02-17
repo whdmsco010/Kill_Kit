@@ -44,7 +44,7 @@ public class SceneChanger : MonoBehaviour
     private void ResetList()
     {
         //random하게 불러올 씬 넘버
-        randomList = new List<int>() { 1, 2};
+        randomList = new List<int>() { 1, 2, 3, 4, 5, 6 };
     }
 
     //chk current sceneNum

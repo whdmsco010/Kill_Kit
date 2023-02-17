@@ -134,7 +134,6 @@ GameObject:
   - component: {fileID: 31694231}
   - component: {fileID: 31694230}
   - component: {fileID: 31694232}
-  - component: {fileID: 31694233}
   m_Layer: 0
   m_Name: "MAP-\uB300\uAE30\uC2E4_0001s_0000_\uD074\uB9AD\uD30C\uB780\uBC15\uC2A4"
   m_TagString: Untagged
@@ -262,27 +261,6 @@ PolygonCollider2D:
       - {x: 0.34, y: -1.27}
       - {x: 0.47, y: -1.25}
       - {x: 0.65999997, y: -1.18}
---- !u!50 &31694233
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 31694229}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &106329744
 GameObject:
   m_ObjectHideFlags: 0
@@ -294,7 +272,6 @@ GameObject:
   - component: {fileID: 106329746}
   - component: {fileID: 106329745}
   - component: {fileID: 106329747}
-  - component: {fileID: 106329748}
   m_Layer: 0
   m_Name: "MAP-\uB300\uAE30\uC2E4_0004s_0003_\uCC45\uC0C1-3"
   m_TagString: Untagged
@@ -508,27 +485,6 @@ PolygonCollider2D:
       - {x: 1.27, y: -3.715}
       - {x: 1.3399999, y: -3.5749998}
       - {x: 1.38, y: -3.485}
---- !u!50 &106329748
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 106329744}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &124677449
 GameObject:
   m_ObjectHideFlags: 0
@@ -540,7 +496,6 @@ GameObject:
   - component: {fileID: 124677451}
   - component: {fileID: 124677450}
   - component: {fileID: 124677452}
-  - component: {fileID: 124677453}
   m_Layer: 0
   m_Name: "MAP-\uB300\uAE30\uC2E4_0003s_0010_\uACE0\uBA10\uBBF8"
   m_TagString: Untagged
@@ -696,27 +651,6 @@ PolygonCollider2D:
       - {x: -1.01, y: -1.4599999}
       - {x: -0.85999995, y: -1.3299999}
       - {x: -0.69, y: -1.41}
---- !u!50 &124677453
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 124677449}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &145377334
 GameObject:
   m_ObjectHideFlags: 0
@@ -812,7 +746,6 @@ GameObject:
   - component: {fileID: 166763481}
   - component: {fileID: 166763480}
   - component: {fileID: 166763482}
-  - component: {fileID: 166763483}
   m_Layer: 0
   m_Name: "MAP-\uB300\uAE30\uC2E4_0003s_0004_\uD074\uB9AD\uB2F4\uBC30"
   m_TagString: Untagged
@@ -922,27 +855,6 @@ PolygonCollider2D:
       - {x: 0.35, y: -0.48}
       - {x: 0.35, y: -0.099999994}
       - {x: 0.26, y: 0.19999999}
---- !u!50 &166763483
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 166763479}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &227758828
 GameObject:
   m_ObjectHideFlags: 0
@@ -954,7 +866,6 @@ GameObject:
   - component: {fileID: 227758830}
   - component: {fileID: 227758829}
   - component: {fileID: 227758831}
-  - component: {fileID: 227758832}
   m_Layer: 0
   m_Name: "MAP-\uB300\uAE30\uC2E4_0004s_0002_\uD074\uB9AD\uB300\uBCF8"
   m_TagString: Untagged
@@ -1100,27 +1011,6 @@ PolygonCollider2D:
       - {x: 0.155, y: -1.425}
       - {x: 0.385, y: -1.355}
       - {x: 0.545, y: -1.265}
---- !u!50 &227758832
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 227758828}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &289751172
 GameObject:
   m_ObjectHideFlags: 0
@@ -1132,7 +1022,6 @@ GameObject:
   - component: {fileID: 289751174}
   - component: {fileID: 289751173}
   - component: {fileID: 289751175}
-  - component: {fileID: 289751176}
   m_Layer: 0
   m_Name: "MAP-\uB300\uAE30\uC2E4_0004s_0004_\uCC45\uC0C1-2"
   m_TagString: Untagged
@@ -1348,27 +1237,6 @@ PolygonCollider2D:
       - {x: 1.2149999, y: -3.715}
       - {x: 1.285, y: -3.5749998}
       - {x: 1.3149999, y: -3.485}
---- !u!50 &289751176
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 289751172}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &302817513
 GameObject:
   m_ObjectHideFlags: 0
@@ -1380,7 +1248,6 @@ GameObject:
   - component: {fileID: 302817515}
   - component: {fileID: 302817514}
   - component: {fileID: 302817516}
-  - component: {fileID: 302817517}
   m_Layer: 0
   m_Name: "MAP-\uB300\uAE30\uC2E4_0004s_0007_\uD074\uB9AD\uC120\uC778\uC7A5"
   m_TagString: Untagged
@@ -1507,27 +1374,6 @@ PolygonCollider2D:
       - {x: 0.265, y: -1.17}
       - {x: 0.415, y: -1.01}
       - {x: 0.405, y: -0.52}
---- !u!50 &302817517
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 302817513}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &304055787
 GameObject:
   m_ObjectHideFlags: 0
@@ -1539,7 +1385,6 @@ GameObject:
   - component: {fileID: 304055789}
   - component: {fileID: 304055788}
   - component: {fileID: 304055790}
-  - component: {fileID: 304055791}
   m_Layer: 0
   m_Name: "MAP-\uB300\uAE30\uC2E4_0003s_0003_\uB2F4\uBC30"
   m_TagString: Untagged
@@ -1650,27 +1495,6 @@ PolygonCollider2D:
       - {x: 0.29999998, y: -0.45}
       - {x: 0.29999998, y: -0.14}
       - {x: 0.19999999, y: 0.14999999}
---- !u!50 &304055791
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 304055787}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &358335794
 GameObject:
   m_ObjectHideFlags: 0
@@ -1850,7 +1674,6 @@ GameObject:
   - component: {fileID: 477547614}
   - component: {fileID: 477547613}
   - component: {fileID: 477547615}
-  - component: {fileID: 477547616}
   m_Layer: 0
   m_Name: "MAP-\uB300\uAE30\uC2E4_0001s_0004_\uBCF4\uAD00\uD568"
   m_TagString: Untagged
@@ -2179,27 +2002,6 @@ PolygonCollider2D:
       - {x: 1.515, y: 5.99}
       - {x: 1.475, y: 5.97}
       - {x: 1.4649999, y: 5.98}
---- !u!50 &477547616
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 477547612}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &484461258
 GameObject:
   m_ObjectHideFlags: 0
@@ -2211,7 +2013,6 @@ GameObject:
   - component: {fileID: 484461260}
   - component: {fileID: 484461259}
   - component: {fileID: 484461261}
-  - component: {fileID: 484461262}
   m_Layer: 0
   m_Name: "MAP-\uB300\uAE30\uC2E4_0002s_0002_\uD074\uB9AD\uBE44\uC0C1\uAD6C-\uD45C\uC9C0\uD310"
   m_TagString: Untagged
@@ -2315,27 +2116,6 @@ PolygonCollider2D:
       - {x: -3.0449998, y: -1.62}
       - {x: 3.0449998, y: -1.62}
       - {x: 3.0449998, y: 1.62}
---- !u!50 &484461262
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 484461258}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &622514769
 GameObject:
   m_ObjectHideFlags: 0
@@ -2347,7 +2127,6 @@ GameObject:
   - component: {fileID: 622514771}
   - component: {fileID: 622514770}
   - component: {fileID: 622514772}
-  - component: {fileID: 622514773}
   m_Layer: 0
   m_Name: "MAP-\uB300\uAE30\uC2E4_0003s_0006_\uCC45\uC0C1"
   m_TagString: Untagged
@@ -2528,27 +2307,6 @@ PolygonCollider2D:
       - {x: -1.8349999, y: -2.28}
       - {x: -1.775, y: -2.19}
       - {x: -1.775, y: -1.8199999}
---- !u!50 &622514773
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 622514769}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &660316260
 GameObject:
   m_ObjectHideFlags: 0
@@ -2560,7 +2318,6 @@ GameObject:
   - component: {fileID: 660316262}
   - component: {fileID: 660316261}
   - component: {fileID: 660316263}
-  - component: {fileID: 660316264}
   m_Layer: 0
   m_Name: "MAP-\uB300\uAE30\uC2E4_0004s_0005_\uCC45\uC0C1-1"
   m_TagString: Untagged
@@ -2755,27 +2512,6 @@ PolygonCollider2D:
       - {x: 1.265, y: -3.715}
       - {x: 1.3349999, y: -3.5749998}
       - {x: 1.365, y: -3.485}
---- !u!50 &660316264
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 660316260}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &674880162
 GameObject:
   m_ObjectHideFlags: 0
@@ -2787,7 +2523,6 @@ GameObject:
   - component: {fileID: 674880164}
   - component: {fileID: 674880163}
   - component: {fileID: 674880165}
-  - component: {fileID: 674880166}
   m_Layer: 0
   m_Name: "MAP-\uB300\uAE30\uC2E4_0003s_0008_\uC18C\uD30C"
   m_TagString: Untagged
@@ -2952,27 +2687,6 @@ PolygonCollider2D:
       - {x: 1.615, y: -1.74}
       - {x: 1.625, y: -1.6899999}
       - {x: 1.7049999, y: -1.52}
---- !u!50 &674880166
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 674880162}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &695632716
 GameObject:
   m_ObjectHideFlags: 0
@@ -3137,8 +2851,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 743219779}
   m_LocalRotation: {x: -0, y: -0, z: 0.7081397, w: -0.7060724}
-  m_LocalPosition: {x: -5.64, y: -1.08, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -7.9265, y: -4.2276, z: 0}
+  m_LocalScale: {x: 0.38388425, y: 0.40697414, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3156,6 +2870,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf8e6d2933b0fcf4893e4996f13eeb72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  move_method: 1
   Speed: 3
 --- !u!60 &743219783
 PolygonCollider2D:
@@ -3239,7 +2954,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 0
 --- !u!1 &816108321
 GameObject:
   m_ObjectHideFlags: 0
@@ -3251,7 +2966,6 @@ GameObject:
   - component: {fileID: 816108323}
   - component: {fileID: 816108322}
   - component: {fileID: 816108324}
-  - component: {fileID: 816108325}
   m_Layer: 0
   m_Name: "MAP-\uB300\uAE30\uC2E4_0003s_0005_\uC7AC\uB5A8\uC774"
   m_TagString: Untagged
@@ -3363,27 +3077,6 @@ PolygonCollider2D:
       - {x: 0.47, y: -0.41}
       - {x: 0.61, y: -0.35}
       - {x: 0.61, y: 0.28}
---- !u!50 &816108325
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 816108321}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &858861576
 GameObject:
   m_ObjectHideFlags: 0
@@ -3395,7 +3088,6 @@ GameObject:
   - component: {fileID: 858861578}
   - component: {fileID: 858861577}
   - component: {fileID: 858861579}
-  - component: {fileID: 858861580}
   m_Layer: 0
   m_Name: "MAP-\uB300\uAE30\uC2E4_0003s_0001_\uD074\uB9AD\uB77C\uC774\uD130"
   m_TagString: Untagged
@@ -3516,27 +3208,6 @@ PolygonCollider2D:
       - {x: 0.24499999, y: -0.73499995}
       - {x: 0.345, y: -0.685}
       - {x: 0.42499998, y: -0.585}
---- !u!50 &858861580
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 858861576}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &949948118
 GameObject:
   m_ObjectHideFlags: 0
@@ -3548,7 +3219,6 @@ GameObject:
   - component: {fileID: 949948120}
   - component: {fileID: 949948119}
   - component: {fileID: 949948121}
-  - component: {fileID: 949948122}
   m_Layer: 0
   m_Name: "MAP-\uB300\uAE30\uC2E4_0004s_0000_\uD074\uB9AD\uC18C\uC8FC"
   m_TagString: Untagged
@@ -3666,27 +3336,6 @@ PolygonCollider2D:
       - {x: 0.345, y: -0.865}
       - {x: 0.355, y: -0.78499997}
       - {x: 0.355, y: 0.255}
---- !u!50 &949948122
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 949948118}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &1030073564
 GameObject:
   m_ObjectHideFlags: 0
@@ -3698,7 +3347,6 @@ GameObject:
   - component: {fileID: 1030073566}
   - component: {fileID: 1030073565}
   - component: {fileID: 1030073567}
-  - component: {fileID: 1030073568}
   m_Layer: 0
   m_Name: "MAP-\uB300\uAE30\uC2E4_0003s_0012_\uD074\uB9AD\uC545\uBCF4"
   m_TagString: Untagged
@@ -3884,27 +3532,6 @@ PolygonCollider2D:
       - {x: 0.17, y: -2.595}
       - {x: 0.22999999, y: -2.5349998}
       - {x: 0.29999998, y: -2.455}
---- !u!50 &1030073568
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1030073564}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &1058322905
 GameObject:
   m_ObjectHideFlags: 0
@@ -4000,7 +3627,6 @@ GameObject:
   - component: {fileID: 1121680003}
   - component: {fileID: 1121680002}
   - component: {fileID: 1121680004}
-  - component: {fileID: 1121680005}
   m_Layer: 0
   m_Name: "MAP-\uB300\uAE30\uC2E4_0000s_0000_\uBC15\uC2A4"
   m_TagString: Untagged
@@ -4140,27 +3766,6 @@ PolygonCollider2D:
       - {x: 0.16499999, y: -1.675}
       - {x: 0.475, y: -1.655}
       - {x: 0.575, y: -1.635}
---- !u!50 &1121680005
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1121680001}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &1141202296
 GameObject:
   m_ObjectHideFlags: 0
@@ -4172,7 +3777,6 @@ GameObject:
   - component: {fileID: 1141202298}
   - component: {fileID: 1141202297}
   - component: {fileID: 1141202299}
-  - component: {fileID: 1141202300}
   m_Layer: 0
   m_Name: "MAP-\uB300\uAE30\uC2E4_0000s_0001_\uD074\uB9AD\uD30C\uC774\uD504"
   m_TagString: Untagged
@@ -4301,27 +3905,6 @@ PolygonCollider2D:
       - {x: 0.024999999, y: -1.1}
       - {x: 0.105, y: -1.04}
       - {x: 0.185, y: -0.93}
---- !u!50 &1141202300
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1141202296}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &1212548593
 GameObject:
   m_ObjectHideFlags: 0
@@ -4333,7 +3916,6 @@ GameObject:
   - component: {fileID: 1212548595}
   - component: {fileID: 1212548594}
   - component: {fileID: 1212548596}
-  - component: {fileID: 1212548597}
   m_Layer: 0
   m_Name: "MAP-\uB300\uAE30\uC2E4_0002s_0000_\uC18C\uD654\uAE30"
   m_TagString: Untagged
@@ -4476,27 +4058,6 @@ PolygonCollider2D:
       - {x: 0.285, y: -2.125}
       - {x: 0.415, y: -1.995}
       - {x: 0.53499997, y: -1.765}
---- !u!50 &1212548597
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1212548593}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &1263424636
 GameObject:
   m_ObjectHideFlags: 0
@@ -4691,7 +4252,6 @@ GameObject:
   - component: {fileID: 1374426566}
   - component: {fileID: 1374426565}
   - component: {fileID: 1374426567}
-  - component: {fileID: 1374426568}
   m_Layer: 0
   m_Name: "MAP-\uB300\uAE30\uC2E4_0004s_0006_\uD074\uB9AD\uC758\uC790"
   m_TagString: Untagged
@@ -4827,27 +4387,6 @@ PolygonCollider2D:
       - {x: -0.225, y: -1.305}
       - {x: -0.13499999, y: -1.185}
       - {x: -0.044999998, y: -1.055}
---- !u!50 &1374426568
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1374426564}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &1387164729
 GameObject:
   m_ObjectHideFlags: 0
@@ -4859,7 +4398,6 @@ GameObject:
   - component: {fileID: 1387164731}
   - component: {fileID: 1387164730}
   - component: {fileID: 1387164732}
-  - component: {fileID: 1387164733}
   m_Layer: 0
   m_Name: "MAP-\uB300\uAE30\uC2E4_0003s_0007_\uD074\uB9AD\uCFE0\uC158"
   m_TagString: Untagged
@@ -4979,27 +4517,6 @@ PolygonCollider2D:
       - {x: 0.049999997, y: -0.76}
       - {x: 0.26, y: -0.71}
       - {x: 0.44, y: -0.61}
---- !u!50 &1387164733
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1387164729}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &1404786246
 GameObject:
   m_ObjectHideFlags: 0
@@ -5011,7 +4528,6 @@ GameObject:
   - component: {fileID: 1404786248}
   - component: {fileID: 1404786247}
   - component: {fileID: 1404786249}
-  - component: {fileID: 1404786250}
   m_Layer: 0
   m_Name: "MAP-\uB300\uAE30\uC2E4_0003s_0002_\uD074\uB9AD\uCC45\uC7A5"
   m_TagString: Untagged
@@ -5121,27 +4637,6 @@ PolygonCollider2D:
       - {x: 1.905, y: -3.1799998}
       - {x: 2.0049999, y: -3.09}
       - {x: 2.0049999, y: 3.9099998}
---- !u!50 &1404786250
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1404786246}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &1432805829
 GameObject:
   m_ObjectHideFlags: 0
@@ -5153,7 +4648,6 @@ GameObject:
   - component: {fileID: 1432805831}
   - component: {fileID: 1432805830}
   - component: {fileID: 1432805832}
-  - component: {fileID: 1432805833}
   m_Layer: 0
   m_Name: "MAP-\uB300\uAE30\uC2E4_0003s_0009_\uD074\uB9AD-\uACE0\uBA10\uBBF8"
   m_TagString: Untagged
@@ -5313,27 +4807,6 @@ PolygonCollider2D:
       - {x: -0.97999996, y: -1.5}
       - {x: -0.81, y: -1.37}
       - {x: -0.74, y: -1.4699999}
---- !u!50 &1432805833
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1432805829}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &1553690012
 GameObject:
   m_ObjectHideFlags: 0
@@ -5345,7 +4818,6 @@ GameObject:
   - component: {fileID: 1553690014}
   - component: {fileID: 1553690013}
   - component: {fileID: 1553690015}
-  - component: {fileID: 1553690016}
   m_Layer: 0
   m_Name: "MAP-\uB300\uAE30\uC2E4_0000s_0002_\uD074\uB9AD\uB77D\uC2A4"
   m_TagString: Untagged
@@ -5468,27 +4940,6 @@ PolygonCollider2D:
       - {x: 0.044999998, y: -0.98999995}
       - {x: 0.355, y: -0.94}
       - {x: 0.515, y: -0.89}
---- !u!50 &1553690016
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1553690012}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &1634920035
 GameObject:
   m_ObjectHideFlags: 0
@@ -5500,7 +4951,6 @@ GameObject:
   - component: {fileID: 1634920037}
   - component: {fileID: 1634920036}
   - component: {fileID: 1634920038}
-  - component: {fileID: 1634920039}
   m_Layer: 0
   m_Name: "MAP-\uB300\uAE30\uC2E4_0004s_0001_\uD074\uB9AD\uD654\uBD84"
   m_TagString: Untagged
@@ -5691,27 +5141,6 @@ PolygonCollider2D:
       - {x: 0.74, y: -1.905}
       - {x: 0.78999996, y: -1.785}
       - {x: 0.78999996, y: -1.4549999}
---- !u!50 &1634920039
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1634920035}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &1646733943
 GameObject:
   m_ObjectHideFlags: 0
@@ -5807,7 +5236,6 @@ GameObject:
   - component: {fileID: 1813499406}
   - component: {fileID: 1813499405}
   - component: {fileID: 1813499407}
-  - component: {fileID: 1813499408}
   m_Layer: 0
   m_Name: "MAP-\uB300\uAE30\uC2E4_0001s_0005_\uC758\uC790"
   m_TagString: Untagged
@@ -5978,27 +5406,6 @@ PolygonCollider2D:
       - {x: 0.72999996, y: 0.114999995}
       - {x: 0.74, y: -0.095}
       - {x: 0.39, y: -0.085}
---- !u!50 &1813499408
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1813499404}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &1814626647
 GameObject:
   m_ObjectHideFlags: 0
@@ -6010,7 +5417,6 @@ GameObject:
   - component: {fileID: 1814626649}
   - component: {fileID: 1814626648}
   - component: {fileID: 1814626650}
-  - component: {fileID: 1814626651}
   m_Layer: 0
   m_Name: "MAP-\uB300\uAE30\uC2E4_0002s_0001_\uD074\uB9AD\uC190\uC218\uAC74"
   m_TagString: Untagged
@@ -6123,27 +5529,6 @@ PolygonCollider2D:
       - {x: 0.48, y: -0.38}
       - {x: 0.48, y: 0.35999998}
       - {x: 0.37, y: 0.48999998}
---- !u!50 &1814626651
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1814626647}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &1868824140
 GameObject:
   m_ObjectHideFlags: 0
@@ -6155,7 +5540,6 @@ GameObject:
   - component: {fileID: 1868824142}
   - component: {fileID: 1868824141}
   - component: {fileID: 1868824143}
-  - component: {fileID: 1868824144}
   m_Layer: 0
   m_Name: "MAP-\uB300\uAE30\uC2E4_0001s_0001_\uD074\uB9AD\uB2E8\uAC80"
   m_TagString: Untagged
@@ -6286,27 +5670,6 @@ PolygonCollider2D:
       - {x: 0.35, y: -1.0699999}
       - {x: 0.48999998, y: -0.96999997}
       - {x: 0.56, y: -0.88}
---- !u!50 &1868824144
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1868824140}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &1902211463
 GameObject:
   m_ObjectHideFlags: 0
@@ -6318,7 +5681,6 @@ GameObject:
   - component: {fileID: 1902211465}
   - component: {fileID: 1902211464}
   - component: {fileID: 1902211466}
-  - component: {fileID: 1902211467}
   m_Layer: 0
   m_Name: "MAP-\uB300\uAE30\uC2E4_0003s_0011_\uB300\uBCF8"
   m_TagString: Untagged
@@ -6464,27 +5826,6 @@ PolygonCollider2D:
       - {x: 0.185, y: -1.37}
       - {x: 0.285, y: -1.3299999}
       - {x: 0.53499997, y: -1.2099999}
---- !u!50 &1902211467
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1902211463}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &1904601756
 GameObject:
   m_ObjectHideFlags: 0
@@ -6496,7 +5837,6 @@ GameObject:
   - component: {fileID: 1904601758}
   - component: {fileID: 1904601757}
   - component: {fileID: 1904601759}
-  - component: {fileID: 1904601760}
   m_Layer: 0
   m_Name: "MAP-\uB300\uAE30\uC2E4_0001s_0002_\uD074\uB9AD\uBC27\uC904"
   m_TagString: Untagged
@@ -6670,27 +6010,6 @@ PolygonCollider2D:
       - {x: 0.45, y: -0.655}
       - {x: 0.45999998, y: -0.675}
       - {x: 0.45, y: -0.66499996}
---- !u!50 &1904601760
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1904601756}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &1947574720
 GameObject:
   m_ObjectHideFlags: 0
@@ -6702,7 +6021,6 @@ GameObject:
   - component: {fileID: 1947574722}
   - component: {fileID: 1947574721}
   - component: {fileID: 1947574723}
-  - component: {fileID: 1947574724}
   m_Layer: 0
   m_Name: "MAP-\uB300\uAE30\uC2E4_0003s_0000_\uD074\uB9AD\uB3C5\uADF9\uBB3C(\uCCAD\uC0B0\uAC00\uB9AC)"
   m_TagString: Untagged
@@ -6881,27 +6199,6 @@ PolygonCollider2D:
       - {x: -0.02, y: 0.225}
       - {x: -0.03, y: 0.225}
       - {x: -0.04, y: 0.235}
---- !u!50 &1947574724
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1947574720}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &1995808339
 GameObject:
   m_ObjectHideFlags: 0
@@ -6913,7 +6210,6 @@ GameObject:
   - component: {fileID: 1995808341}
   - component: {fileID: 1995808340}
   - component: {fileID: 1995808342}
-  - component: {fileID: 1995808343}
   m_Layer: 0
   m_Name: "MAP-\uB300\uAE30\uC2E4_0001s_0003_\uD30C\uB780\uBC15\uC2A4"
   m_TagString: Untagged
@@ -7061,24 +6357,3 @@ PolygonCollider2D:
       - {x: 0.26999998, y: -2.04}
       - {x: 0.57, y: -2}
       - {x: 0.90999997, y: -1.92}
---- !u!50 &1995808343
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1995808339}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4

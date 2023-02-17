@@ -7,7 +7,7 @@ public class Start : MonoBehaviour
 {
     public void SceneChange()
     {
-       int Map = Random.Range(1, 3);
+       int Map = Random.Range(1, 5);
        SceneManager.LoadScene(Map);
     }
 }

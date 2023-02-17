@@ -4,34 +4,59 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public int move_method;
+
     Vector3 position;
     public float Speed = 1;
 
-    // Use this for initialization
-    void Start()
-    {
-        position = transform.position;
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (move_method == 0)
         {
-            position.x -= Speed * Time.deltaTime;
+            position = Vector3.zero;
+
+            if (Input.GetKey(KeyCode.RightArrow))
+            {
+                position.x += Speed;
+            }
+            if (Input.GetKey(KeyCode.LeftArrow))
+            {
+                position.x -= Speed;
+            }
+            if (Input.GetKey(KeyCode.UpArrow))
+            {
+                position.y += Speed;
+            }
+            if (Input.GetKey(KeyCode.DownArrow))
+            {
+                position.y -= Speed;
+            }
+
+            transform.position = position;
         }
-        if (Input.GetKey(KeyCode.RightArrow))
+        
+        else
         {
-            position.x += Speed * Time.deltaTime;
+            position = Vector3.zero;
+
+            if (Input.GetKey(KeyCode.RightArrow))
+            {
+                position.x += Speed;
+            }
+            if (Input.GetKey(KeyCode.LeftArrow))
+            {
+                position.x -= Speed;
+            }
+            if (Input.GetKey(KeyCode.UpArrow))
+            {
+                position.y += Speed;
+            }
+            if (Input.GetKey(KeyCode.DownArrow))
+            {
+                position.y -= Speed;
+            }
+            
+            GetComponent<Rigidbody2D>().velocity = position;
         }
-        if (Input.GetKey(KeyCode.UpArrow))
-        {
-            position.y += Speed * Time.deltaTime;
-        }
-        if (Input.GetKey(KeyCode.DownArrow))
-        {
-            position.y -= Speed * Time.deltaTime;
-        }
-        transform.position = position;
     }
 }
