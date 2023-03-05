@@ -9,9 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Main.unity
     guid: 72d29325ed7108b49ba71b366171d78d
   - enabled: 1
-    path: Assets/Scenes/FarmScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
     path: Assets/Scenes/WaitingRoomScene.unity
     guid: a9c7c4c707cdf50498a72004a73fc2d0
   - enabled: 1
@@ -20,4 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Kingdom.unity
     guid: 3090e6ea49410714bbfe0f579fe41c6d
+  - enabled: 1
+    path: Assets/Scenes/Casino.unity
+    guid: eb4cf65e404fe574daf16d10a90ff647
+  - enabled: 1
+    path: Assets/Scenes/Drug.unity
+    guid: 21f2c8cc43cd0d7478bb91f58959ce8e
+  - enabled: 1
+    path: Assets/Scenes/FarmScene.unity
+    guid: 1972a582bfc3a274b962e2e0c1b72871
   m_configObjects: {}
