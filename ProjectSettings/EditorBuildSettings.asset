@@ -11,6 +11,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WaitingRoomScene.unity
     guid: a9c7c4c707cdf50498a72004a73fc2d0
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Casino.unity
+    guid: eb4cf65e404fe574daf16d10a90ff647
+  - enabled: 1
+    path: Assets/Scenes/Drug.unity
+    guid: 21f2c8cc43cd0d7478bb91f58959ce8e
+  - enabled: 1
+    path: Assets/Scenes/Church.unity
+    guid: d11416a308715c54081d17fb467d3ab9
   - enabled: 1
     path: Assets/Scenes/Church.unity
     guid: 5ae86457d80f5d54ca15192a1fd719c8
@@ -25,5 +37,12 @@ EditorBuildSettings:
     guid: 21f2c8cc43cd0d7478bb91f58959ce8e
   - enabled: 1
     path: Assets/Scenes/FarmScene.unity
+<<<<<<< HEAD
     guid: 1972a582bfc3a274b962e2e0c1b72871
+=======
+    guid: f8d0f4b3cfc84c3439f7900ec8a0c026
+  - enabled: 1
+    path: Assets/Scenes/Kingdom.unity
+    guid: 3090e6ea49410714bbfe0f579fe41c6d
+>>>>>>> branch_uz
   m_configObjects: {}

@@ -4,16 +4,66 @@ using UnityEngine;
 
 public class MovingObject : MonoBehaviour
 {
-    float moveX, moveY;
+    
+    public int move_method;
 
-    [Header("이동속도 조절")]
-    [SerializeField]    [Range(1f,30f)] float moveSpeed = 20f;
+    public float speed;
+    public Vector2 speed_vec;
 
     void Update()
     {
-        moveX=Input.GetAxisRaw("Horizontal") * moveSpeed * Time.deltaTime;
-        moveY=Input.GetAxisRaw("Vertical") * moveSpeed * Time.deltaTime;
+        if(move_method == 0)
+        {
+            speed_vec = Vector2.zero;
 
-        transform.position = new Vector2(transform.position.x + moveX, transform.position.y + moveY);
+            if(Input.GetKey(KeyCode.RightArrow))
+            {
+                speed_vec.x += speed;
+            }
+            if(Input.GetKey(KeyCode.LeftArrow))
+            {
+                speed_vec.x -= speed;
+            }
+            if(Input.GetKey(KeyCode.UpArrow))
+            {
+                speed_vec.y += speed;
+            }
+            if(Input.GetKey(KeyCode.DownArrow))
+            {
+                speed_vec.y -= speed;
+            }
+
+            transform.Translate(speed_vec);
+        }
+        else if(move_method == 1)
+        {
+            speed_vec.x = Input.GetAxis("Horizontal") * speed;
+            speed_vec.y = Input.GetAxis("Vertical") * speed;
+
+            transform.Translate(speed_vec);
+        }
+        else if(move_method == 2)
+        {
+            speed_vec = Vector2.zero;
+
+            if (Input.GetKey(KeyCode.RightArrow))
+            {
+                speed_vec.x += speed;
+            }
+            if (Input.GetKey(KeyCode.LeftArrow))
+            {
+                speed_vec.x -= speed;
+            }
+            if (Input.GetKey(KeyCode.UpArrow))
+            {
+                speed_vec.y += speed;
+            }
+            if (Input.GetKey(KeyCode.DownArrow))
+            {
+                speed_vec.y -= speed;
+            }
+
+            GetComponent<Rigidbody2D>().velocity = speed_vec;
+        }
     }
 }
